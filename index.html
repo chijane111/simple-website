@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEMIK CREATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <p class="logo">STEMIK CREATION</p>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="main-text">
+        <h1>Welcome to STEMIK CREATION</h1>
+        <div id="main-text1"></div>
+    
+        <p>Where we style you to perfection with wigs and cornrows.</p>
+    </div>
+
+    <div class="main-image">
+        <img src="img/Rectangle 55 (1).png" alt="Hair Styling">
+    </div>
+</main>
+
+<button id="cta-button">Book an Appointment</button>
+
+<section class="gallery">
+    <div class="gallery-item">
+        <img src="img/Rectangle 55 (1).png" alt="Elegant Wig Style">
+        <p>Elegant Wig Style</p>
+    </div>
+
+    <div class="gallery-item">
+        <img src="img/Rectangle 55 (1).png" alt="Chic Wig Style">
+        <p>Chic Wig Style</p>
+    </div>
+
+    <div class="gallery-item">
+        <img src="img/Rectangle 55 (1).png" alt="Trendy Cornrow Style">
+        <p>Trendy Cornrow Style</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 STEMIK CREATION. All rights reserved.</p>
+</footer>
+
+<script>
+    const mainText = document.getElementById('main-text1');
+    mainText.innerHTML = 'You will love what we do at <strong style="color:red">STEMIK CREATION</strong>!';
+
+    const ctaButton =document.getElementById('cta-button');
+    ctaButton.addEventListener('click', () => {
+        alert('Thank you for choosing STEMIK CREATION! We will contact you shortly to confirm your appointment.');
+    });
+
+</script>
+
+</body>
+</html>
